@@ -1,0 +1,26 @@
+@import 'normalize';
+@import 'vars';
+@import 'fonts';
+@import 'mixins';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	height: 100%;
+}
+
+body {
+	// color: $text-color;
+	// font-family: $text-font;
+	font-size: 1.4rem;
+	line-height: 1.6;
+}
+
+.container {
+	width: 1200px;
+	max-width: 80%;
+	margin: 0 auto;
+}
