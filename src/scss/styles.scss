@@ -979,9 +979,6 @@ body {
 }
 
 .footer {
-
-	overflow: hidden;
-
 	padding-bottom: 30px;
 	&__top {
 		display: flex;
@@ -1060,6 +1057,9 @@ body {
 	}
 	&__copyright {
 		font-size: 1rem;
+	}
+	&__socials {
+		width: 40%;
 	}
 	&__social {
 		font-size: 3.2rem;
